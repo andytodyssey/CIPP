@@ -1,12 +1,4 @@
 {
-  "networking": {
-    "allowedIpRanges": [
-      "85.118.168.2/32",
-      "188.95.206.249/22"
-    ]
-  }
-}
-{
   "routes": [
     {
       "route": "/static/*",
@@ -115,5 +107,13 @@
   },
   "mimeTypes": {
     ".json": "text/json"
+  }
+}
+{
+  "networking": {
+    "allowedIpRanges": [
+      "85.118.168.2/32",
+      "188.95.206.249/22"
+    ]
   }
 }
